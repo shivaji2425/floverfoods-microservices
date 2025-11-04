@@ -8,4 +8,5 @@ import com.microservices.entity.Restaurant;
 @Repository
 public interface RestaurantRepository extends JpaRepository<Restaurant, Long> {
 
+	
 }

@@ -17,6 +17,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class RestaurantRequestDTO {
     
+	
 	@Size(min = 3, message = "Building name must be atleast 5 characters")
 	private String restaurantName;
 	
