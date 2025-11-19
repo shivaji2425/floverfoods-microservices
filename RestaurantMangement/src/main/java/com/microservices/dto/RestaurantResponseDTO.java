@@ -22,7 +22,6 @@ public class RestaurantResponseDTO {
 	
 	private List<Item> items;
 	
-	
 }
 
 
