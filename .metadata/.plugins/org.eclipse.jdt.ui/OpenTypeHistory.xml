@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=RestaruntMangement/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.microservices.service{RestaurantService.java[RestaurantService" modifiers="513" timestamp="1760161060552"/>
-    <typeInfo handle="=RestaruntMangement/C:\/Users\/shivaji\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/3.5.4\/spring-data-jpa-3.5.4.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/3.5.4=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1760116579668"/>
-</typeInfoHistroy>
