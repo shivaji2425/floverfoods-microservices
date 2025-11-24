@@ -2,27 +2,27 @@ package com.microservices.dto;
 
 import java.util.List;
 
-import com.microservices.entity.Address;
-import com.microservices.entity.Item;
-
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class RestaurantResponseDTO {
-
-	private String message = "Restaurant Created";
+	
+	private long restaurantId;
+	
 	private String restaurantName;
-	private String number;
 	
-	private Address address;
+	private String phoneNum;
 	
-	private List<Item> items;
+	private double rating;
 	
+	private AddressResponseDto addressResponseDto;
+	
+	private List<ItemResponseDTO> itemResponseDtoList;
+
 }
-
-
-

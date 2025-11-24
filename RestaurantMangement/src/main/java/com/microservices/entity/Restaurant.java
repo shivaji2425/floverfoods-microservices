@@ -39,16 +39,21 @@ public class Restaurant {
 	private double rating;
 	
 	@OneToOne(cascade = CascadeType.ALL)
-	@JoinColumn(name = "restaurant_id")
+	@JoinColumn(name = "address_id")
 	private Address address;
 	
 	@OneToMany(cascade = CascadeType.ALL)
 	@JoinColumn(name = "restaurant_id")
 	private List<Item> items;
     
-	
-	
-	
+	public Restaurant(String restaurantName, String phoneNum, double rating, Address address, List<Item> items) {
+		super();
+		this.restaurantName = restaurantName;
+		this.number = phoneNum;
+		this.rating = rating;
+		this.address = address;
+		this.items = items;
+	}
 	
 	
 	

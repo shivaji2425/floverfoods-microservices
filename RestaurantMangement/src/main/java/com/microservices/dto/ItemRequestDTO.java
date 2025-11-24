@@ -13,7 +13,7 @@ public class ItemRequestDTO {
 	private String itemCategory;
 	private String itemType;
 	private double itemPrice;
-	private double itemRating;
+//	private double itemRating;
 	private boolean isItemAvailable;
 }
 
