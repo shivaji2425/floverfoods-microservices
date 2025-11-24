@@ -22,7 +22,7 @@ public class RestaurantRequestDTO {
 	
 	private String number;
 	
-	private AddressRequestDTO address;
+	private AddressRequestDTO addressDTO;
 	
 	private List<ItemRequestDTO> items;
 }
