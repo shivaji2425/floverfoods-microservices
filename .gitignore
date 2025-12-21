@@ -1,1 +1,16 @@
+# Ignore Eclipse workspace files
 /.metadata/
+.project
+.classpath
+.settings/
+
+# Build output folders
+target/
+build/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
